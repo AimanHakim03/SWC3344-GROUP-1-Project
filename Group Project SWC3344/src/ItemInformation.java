@@ -10,11 +10,11 @@ public class ItemInformation {
 	
 	String itemId;
     String itemName;
-    Double itemPrice;
+    double itemPrice;
     String datePurchase;
     int itemQuantity;
 	
-	public ItemInformation(CustomerInformation customer, String itemId, String itemName, Double itemPrice, String datePurchase, int itemQuantity)
+	public ItemInformation(CustomerInformation customer, String itemId, String itemName, double itemPrice, String datePurchase, int itemQuantity)
 	{
 		itemId = null;
 		itemName = null;
@@ -25,7 +25,7 @@ public class ItemInformation {
 		
 	}//end of no-args constructor
 	
-	public ItemInformation(String Iid, String Iname, Double Iprice, int Iquantity, String date )
+	public ItemInformation(String Iid, String Iname, double Iprice, int Iquantity, String date )
 	{   
 		itemId = Iid;
 		itemName = Iname;
@@ -48,7 +48,7 @@ public class ItemInformation {
 		itemName = Iname;
 	}
 	
-	public void setItemPrice(Double Iprice)
+	public void setItemPrice(double Iprice)
 	{
 		itemPrice = Iprice;
 	}
@@ -102,4 +102,5 @@ public class ItemInformation {
 	
 	
 }//end of Item Information Class
+
 
