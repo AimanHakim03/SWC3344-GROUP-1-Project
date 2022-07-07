@@ -1,4 +1,6 @@
-
+/**
+GUI Program Application for Lotus Hypermarket
+ **/
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.util.*;
@@ -85,7 +87,7 @@ public class LotusCheckout extends JFrame {
 		int counterPaid = 0;
 		String itemId = "";
 		String itemName = "";
-		Double itemPrice = 0.00;
+		double itemPrice = 0.00;
 		String datePurchase = "";
 		int itemQuantity = 0; 
 		
@@ -424,5 +426,4 @@ public class LotusCheckout extends JFrame {
 		
 		
 	}
-}//end of Lotus Checkout  
-
+}//end of Lotus Checkout
